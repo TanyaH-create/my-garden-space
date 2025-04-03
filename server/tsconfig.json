@@ -9,6 +9,6 @@
     // "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */
     "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["src"],
+  "include": ["src"]
   
 }
