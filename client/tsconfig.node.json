@@ -11,7 +11,9 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "noEmit": false,  // Changed from true to false
+    "composite": true, // Added this
+    "outDir": "./dist", // Added this
 
     /* Linting */
     "strict": true,
@@ -22,3 +24,4 @@
   },
   "include": ["vite.config.ts"]
 }
+
