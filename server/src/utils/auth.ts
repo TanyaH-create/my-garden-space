@@ -1,3 +1,4 @@
+/// <reference path="../../jsonwebtoken.d.ts" />
 import jwt from 'jsonwebtoken';
 import { GraphQLError } from 'graphql';
 import dotenv from 'dotenv';
